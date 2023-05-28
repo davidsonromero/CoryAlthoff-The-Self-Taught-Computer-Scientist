@@ -21,7 +21,7 @@ class BinarySearch:
         print("\n\nEnd")
 
 print("Creating array...\n")
-collection = list(range(100000000))
+collection = list(range(1000000))
 
 target = random.randint(0, len(collection) - 1)
 binarySearch = BinarySearch(collection)
